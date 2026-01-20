@@ -1,32 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Azure Web App CI/CD Demo</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Hemant Sharma | Portfolio</title>
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: #e5e7eb;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-        .box {
-            background: #1e293b;
-            padding: 30px;
-            border-radius: 10px;
+
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #020617;
+            padding: 40px 20px;
             text-align: center;
         }
-        h1 { color: #38bdf8; }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: #38bdf8;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            margin-top: 10px;
+            color: #cbd5f5;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #1e293b;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .card {
+            background: #020617;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #1e293b;
+            padding: 8px 12px;
+            border-radius: 20px;
+            margin: 6px;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #020617;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
-    <div class="box">
-        <h1>🚀 Deployed with Azure Web App</h1>
-        <p>CI/CD using GitHub Actions</p>
-        <p>Azure for Students</p>
+
+<header>
+    <h1>Hemant Sharma</h1>
+    <p>MCA (Data Science) | Cloud Computing & DevOps Enthusiast</p>
+</header>
+
+<section>
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am an MCA student specializing in Data Science with a strong interest in
+            Cloud Computing, DevOps, and modern software deployment practices.
+            I enjoy building real-world projects and deploying them using cloud platforms
+            like Microsoft Azure and Google Cloud.
+        </p>
     </div>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <div class="card skills">
+        <span>Java</span>
+        <span>Python</span>
+        <span>Data Structures & Algorithms</span>
+        <span>Linux</span>
+        <span>Git & GitHub</span>
+        <span>Azure Web Apps</span>
+        <span>CI/CD (GitHub Actions)</span>
+        <span>Docker (Beginner)</span>
+        <span>Google Cloud (GCP)</span>
+    </div>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <div class="card">
+        <ul>
+            <li><strong>MCA (Data Science)</strong> – Chandigarh University</li>
+            <li>Specialization: Cloud Computing & DevOps</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <div class="card">
+        <ul>
+            <li>
+                <strong>Azure Web App CI/CD Deployment</strong><br/>
+                Deployed a portfolio website using Azure Web App with GitHub Actions
+                for automated CI/CD.
+            </li>
+            <br/>
+            <li>
+                <strong>Kubernetes & GKE Labs</strong><br/>
+                Hands-on experience deploying containerized applications on Google
+                Kubernetes Engine.
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
+        <p>LinkedIn: <a href="#" target="_blank">Add your LinkedIn</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Hemant Sharma | Deployed on Azure using GitHub CI/CD
+</footer>
+
 </body>
 </html>
+
